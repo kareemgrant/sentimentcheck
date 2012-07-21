@@ -1,0 +1,30 @@
+Logfile initialized
+[INFO] logfile = /Users/kareemgrant/Titanium Studio Workspace/SentimentCheck/build.log
+[DEBUG] /Users/kareemgrant/Library/Application Support/Titanium/mobilesdk/osx/2.0.2.GA/android/builder.py simulator SentimentCheck /Applications/android-sdk-macosx /Users/kareemgrant/Titanium Studio Workspace/SentimentCheck com.getuserwise.sentimentcheck 11 HVGA 
+[INFO] Building SentimentCheck for Android ... one moment
+[INFO] Titanium SDK version: 2.0.2 (05/30/12 10:21 2ff31a3)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[ERROR] Timed out waiting for emulator to be ready, you may need to close the emulator and try again
+[INFO] Android Emulator has exited
