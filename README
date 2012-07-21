@@ -1,4 +1,4 @@
-SentimentCheck is an App that assigns a sentiment (or mood) to tweets returned from a Tweet API Search call. 
+SentimentCheck is an App that assigns a sentiment (or mood) to tweets returned from a Twitter API Search call. 
 
 This app was built using Appcelerator and makes use of Twitter's Search API (https://dev.twitter.com/docs/api/1/get/search) as well as AlchemyAPI's sentiment API (http://www.alchemyapi.com/api/sentiment/).
 
