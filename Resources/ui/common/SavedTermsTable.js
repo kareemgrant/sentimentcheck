@@ -7,7 +7,6 @@ function SavedTermsTable(navGroup){
 	
 	var table = Ti.UI.createTableView({
 		backgroundColor: 'transparent',
-		//foo: 'bar'
 	});
 	
 	var updateTermsTable = function(){

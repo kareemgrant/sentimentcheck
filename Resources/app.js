@@ -5,7 +5,6 @@ var globals = {};
 	
 	//system message the details platform name
 	Ti.API.debug("The platform being used by this app is " + Ti.Platform.name);
-	//alert("The platform being used by this app is " + Ti.Platform.name);
 	
 	var ApplicationTabGroup = require('ui/common/ApplicationTabGroup').ApplicationTabGroup;
 	
