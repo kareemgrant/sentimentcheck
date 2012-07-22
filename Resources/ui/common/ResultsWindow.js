@@ -17,7 +17,7 @@ function ResultsWindow(query){
 			onCreateOptionsMenu : function(e) {
 				var menu = e.menu;
 				var menuItem = menu.add({ title : 'Save Search Term' });
-				menuItem.setIcon("ui/img/floppy_disc.png");
+				menuItem.setIcon("/images/floppy_disc.png");
 				
 				menuItem.addEventListener('click', function(e) {
 					

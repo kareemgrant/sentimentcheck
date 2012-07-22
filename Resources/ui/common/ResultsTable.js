@@ -59,11 +59,11 @@ function ResultsTable(query){
 		var img = '';
 		
 		if(data.mood == 'positive'){
-			img = 'ui/img/pos.gif';
+			img = '/images/pos.gif';
 		}else if(data.mood == 'negative') {
-			img = 'ui/img/neg.gif';
+			img = '/images/neg.gif';
 		}else{
-			img = 'ui/img/neu.gif';
+			img = '/images/neu.gif';
 		}
 		
 		var resultsRow = Ti.UI.createTableViewRow({

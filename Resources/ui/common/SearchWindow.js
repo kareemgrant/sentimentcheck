@@ -23,19 +23,19 @@ function SearchWindow(){
 	})
 	
 	posImage = Ti.UI.createImageView({
-		image: 'ui/img/pos.gif',
+		image: '/images/pos.gif',
 		bottom: 120,
 		left: 20
 	});
 	
 	neuImage = Ti.UI.createImageView({
-		image: 'ui/img/neu.gif',
+		image: '/images/neu.gif',
 		bottom: 90,
 		left: 20
 	});
 	
 	negImage = Ti.UI.createImageView({
-		image: 'ui/img/neg.gif',
+		image: '/images/neg.gif',
 		bottom: 60,
 		left: 20
 	});
@@ -76,7 +76,7 @@ function SearchWindow(){
 	var searchBox = Ti.UI.createTextField({
 		top: 80,
 		width: 250,
-		height: 30,
+		height: 40,
 		borderColor: '#000',
 		borderRadius: 3,
 		paddingLeft: 2
@@ -95,7 +95,7 @@ function SearchWindow(){
 	
 	
 	button.addEventListener('click', function(e){
-		if(searchBox.value != null){
+		if(searchBox.value != "" && searchBox.value != null){
 			var query = searchBox.value;
 			
 			//var newWin = new AddWindow(navGroup);
@@ -106,6 +106,8 @@ function SearchWindow(){
 			}else{
 				resultsWin.open();
 			};
+		}else{
+			alert("Please enter in a search term");
 		};
 	});
 	

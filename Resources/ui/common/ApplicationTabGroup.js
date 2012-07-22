@@ -15,19 +15,19 @@ exports.ApplicationTabGroup = function(){
 	var tab1 = Titanium.UI.createTab({  
     	title:'Search',
     	window:searchWin,
-    	icon:'ui/img/magnifying_glass.png'
+    	icon:'images/magnifying_glass.png'
 	});
 	
 	var tab2 = Titanium.UI.createTab({  
     	title:'Saved Searches',
     	window:savedTermsWin,
-    	icon:'ui/img/floppy_disc.png'
+    	icon:'images/floppy_disc.png'
 	});
 	
 	var tab3 = Titanium.UI.createTab({  
     	title:'About',
     	window:aboutWin,
-    	icon:'ui/img/light_info.png'
+    	icon:'images/light_info.png'
 	});
 
 	AppTabGroup.addTab(tab1);
